@@ -1,0 +1,19 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.text_wisteria {
+    color: #8e44ad;
+}
+
+.bg_wisteria {
+    background-color: #8e44ad;
+}
+
+.fit_content_ {
+    width: fit-content;
+}
