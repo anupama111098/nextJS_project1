@@ -13,7 +13,6 @@ function NavLinks() {
     return (
         <>
             {links?.map((link) => {
-                const linkIcon = link.icon
                 return (
                     <Link href={link.href} key={link.href}
                         className={`flex h-[48px] grow items-center justify-center
