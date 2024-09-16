@@ -11,7 +11,7 @@ function HomePage() {
           <div className='flex flex-col justify-center'>
         <h1 className={`font-bold ${styles.text_wisteria}`} >Welcome</h1>
         <p>This is home starting page details are here to start.</p>
-        <Link className={`outline outline-1 outline-offset-2 border border-purple-700 mb-5 hover:text-white py-2 px-4 mt-4 rounded hover:bg-purple-800 md:w-auto ${styles.fit_content_}`} href={'/blog'}>Go to Blog</Link>
+        <Link className={`outline outline-1 outline-offset-1 border border-green-400 mb-5 hover:text-white py-2 px-4 mt-4 rounded hover:bg-green-400 md:w-auto ${styles.fit_content_}`} href={'/blog'}>Go to Blog</Link>
           </div>
           <div className='relative flex justify-center items-center'>
             <Image src={`/image-desktop.jpg`}
@@ -27,9 +27,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div className={`hidden md:block absolute top-0 right-0 bottom-0 left-2/3 z-0 ${styles.bg_wisteria}`}>
-q
-      </div>
+      <div className={`hidden md:block absolute top-0 right-0 bottom-0 left-2/3 z-0 ${styles.bg_wisteria}`}/>
     </main>
   )
 }
