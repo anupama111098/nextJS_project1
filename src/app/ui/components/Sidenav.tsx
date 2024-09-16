@@ -1,3 +1,4 @@
+import UserButton from "./login/user-button"
 import NavLinks from "./nav-links"
 
 function Sidenav() {
@@ -5,6 +6,7 @@ function Sidenav() {
         <div className="flex h-full flex-col px-3 py-4 md:px-2 w-[250px]">
             <div className="flex md:flex-col h-fit">
                 <NavLinks />
+                <UserButton/>
             </div>
         </div>
     )
